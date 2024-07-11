@@ -39,6 +39,7 @@ dependencies:
   introduction_screen:
   google_fonts:
   flutter_launcher_icons:
+  carousel_slider: 
 
 dev_dependencies:
   flutter_test:

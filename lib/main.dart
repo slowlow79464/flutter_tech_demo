@@ -4,6 +4,7 @@ import 'package:flutter_tech_demo/3_fitted_box.dart';
 import 'package:flutter_tech_demo/4_snackbar.dart';
 import 'package:flutter_tech_demo/5_google_fonts.dart';
 import 'package:flutter_tech_demo/6_hero.dart';
+import 'package:flutter_tech_demo/7_carousel.dart';
 import '1_introduction_screen.dart';
 import 'animation/animation_index.dart';
 
@@ -48,7 +49,9 @@ class MyHomePage extends StatelessWidget {
           const Divider(),
           _buildButton(context, name: "5 GoogleFonts&SelectableText", widgetBuilder: (ctx)=> GoogleFontsDemo()),
           const Divider(),
-          _buildButton(context, name: "5 Hero", widgetBuilder: (ctx)=> HeroDemo()),
+          _buildButton(context, name: "6 Hero", widgetBuilder: (ctx)=> HeroDemo()),
+          const Divider(),
+          _buildButton(context, name: "7 Carousel", widgetBuilder: (ctx)=> CarouselDemo()),
           const Divider(),
         ],
       ),
